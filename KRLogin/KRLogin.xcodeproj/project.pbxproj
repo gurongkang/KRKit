@@ -15,6 +15,9 @@
 		5482C0962176118D00FE61FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0952176118D00FE61FC /* main.m */; };
 		5482C0A02176118E00FE61FC /* KRLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C09F2176118E00FE61FC /* KRLoginTests.m */; };
 		5482C0AB2176118E00FE61FC /* KRLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0AA2176118E00FE61FC /* KRLoginUITests.m */; };
+		5482C0D5217613DC00FE61FC /* KRPasswordLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0CC217613DC00FE61FC /* KRPasswordLoginView.m */; };
+		5482C0D92176140C00FE61FC /* KRPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0D82176140C00FE61FC /* KRPasswordViewController.m */; };
+		54FFE87E217757CD00B2CDFC /* KRPasswordLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FFE87D217757CD00B2CDFC /* KRPasswordLoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		5482C0A62176118E00FE61FC /* KRLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5482C0AA2176118E00FE61FC /* KRLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRLoginUITests.m; sourceTree = "<group>"; };
 		5482C0AC2176118E00FE61FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5482C0CB217613DC00FE61FC /* KRPasswordLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRPasswordLoginView.h; sourceTree = "<group>"; };
+		5482C0CC217613DC00FE61FC /* KRPasswordLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRPasswordLoginView.m; sourceTree = "<group>"; };
+		5482C0D72176140C00FE61FC /* KRPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRPasswordViewController.h; sourceTree = "<group>"; };
+		5482C0D82176140C00FE61FC /* KRPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRPasswordViewController.m; sourceTree = "<group>"; };
+		54FFE87D217757CD00B2CDFC /* KRPasswordLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRPasswordLoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		5482C0852176118C00FE61FC /* KRLogin */ = {
 			isa = PBXGroup;
 			children = (
+				5482C0C7217613DC00FE61FC /* Module */,
 				5482C0862176118C00FE61FC /* AppDelegate.h */,
 				5482C0872176118C00FE61FC /* AppDelegate.m */,
 				5482C0892176118C00FE61FC /* ViewController.h */,
@@ -130,6 +139,66 @@
 				5482C0AC2176118E00FE61FC /* Info.plist */,
 			);
 			path = KRLoginUITests;
+			sourceTree = "<group>";
+		};
+		5482C0C7217613DC00FE61FC /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5482C0C8217613DC00FE61FC /* PasswordLogin */,
+				5482C0CD217613DC00FE61FC /* FindPassword */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5482C0C8217613DC00FE61FC /* PasswordLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5482C0C9217613DC00FE61FC /* Controller */,
+				5482C0CA217613DC00FE61FC /* View */,
+			);
+			path = PasswordLogin;
+			sourceTree = "<group>";
+		};
+		5482C0C9217613DC00FE61FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5482C0D72176140C00FE61FC /* KRPasswordViewController.h */,
+				5482C0D82176140C00FE61FC /* KRPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5482C0CA217613DC00FE61FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5482C0CB217613DC00FE61FC /* KRPasswordLoginView.h */,
+				5482C0CC217613DC00FE61FC /* KRPasswordLoginView.m */,
+				54FFE87D217757CD00B2CDFC /* KRPasswordLoginView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5482C0CD217613DC00FE61FC /* FindPassword */ = {
+			isa = PBXGroup;
+			children = (
+				5482C0CE217613DC00FE61FC /* Controller */,
+				5482C0CF217613DC00FE61FC /* View */,
+			);
+			path = FindPassword;
+			sourceTree = "<group>";
+		};
+		5482C0CE217613DC00FE61FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5482C0CF217613DC00FE61FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +306,7 @@
 			files = (
 				5482C0932176118D00FE61FC /* LaunchScreen.storyboard in Resources */,
 				5482C0902176118D00FE61FC /* Assets.xcassets in Resources */,
+				54FFE87E217757CD00B2CDFC /* KRPasswordLoginView.xib in Resources */,
 				5482C08E2176118C00FE61FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5482C0D5217613DC00FE61FC /* KRPasswordLoginView.m in Sources */,
 				5482C08B2176118C00FE61FC /* ViewController.m in Sources */,
+				5482C0D92176140C00FE61FC /* KRPasswordViewController.m in Sources */,
 				5482C0962176118D00FE61FC /* main.m in Sources */,
 				5482C0882176118C00FE61FC /* AppDelegate.m in Sources */,
 			);
