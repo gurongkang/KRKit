@@ -7,76 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5482C0882176118C00FE61FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0872176118C00FE61FC /* AppDelegate.m */; };
-		5482C08B2176118C00FE61FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C08A2176118C00FE61FC /* ViewController.m */; };
-		5482C08E2176118C00FE61FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5482C08C2176118C00FE61FC /* Main.storyboard */; };
-		5482C0902176118D00FE61FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5482C08F2176118D00FE61FC /* Assets.xcassets */; };
-		5482C0932176118D00FE61FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5482C0912176118D00FE61FC /* LaunchScreen.storyboard */; };
-		5482C0962176118D00FE61FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0952176118D00FE61FC /* main.m */; };
-		5482C0A02176118E00FE61FC /* KRLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C09F2176118E00FE61FC /* KRLoginTests.m */; };
-		5482C0AB2176118E00FE61FC /* KRLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0AA2176118E00FE61FC /* KRLoginUITests.m */; };
-		5482C0D5217613DC00FE61FC /* KRPasswordLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0CC217613DC00FE61FC /* KRPasswordLoginView.m */; };
-		5482C0D92176140C00FE61FC /* KRPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5482C0D82176140C00FE61FC /* KRPasswordViewController.m */; };
-		54FFE87E217757CD00B2CDFC /* KRPasswordLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FFE87D217757CD00B2CDFC /* KRPasswordLoginView.xib */; };
+		54223E9821900ECC0059EF3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223E9721900ECC0059EF3B /* AppDelegate.swift */; };
+		54223E9A21900ECC0059EF3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223E9921900ECC0059EF3B /* ViewController.swift */; };
+		54223E9D21900ECC0059EF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54223E9B21900ECC0059EF3B /* Main.storyboard */; };
+		54223E9F21900ECD0059EF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54223E9E21900ECD0059EF3B /* Assets.xcassets */; };
+		54223EA221900ECD0059EF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54223EA021900ECD0059EF3B /* LaunchScreen.storyboard */; };
+		54223EAD21900ECD0059EF3B /* KRLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223EAC21900ECD0059EF3B /* KRLoginTests.swift */; };
+		54223EB821900ECD0059EF3B /* KRLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223EB721900ECD0059EF3B /* KRLoginUITests.swift */; };
+		54223EC8219013ED0059EF3B /* KRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223EC7219013ED0059EF3B /* KRLoginViewController.swift */; };
+		54223ECA219014190059EF3B /* KRRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223EC9219014190059EF3B /* KRRootViewController.swift */; };
+		545C5C0F2190452F006005E5 /* kRUserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C5C0E2190452F006005E5 /* kRUserLoginView.swift */; };
+		545C5C1121904547006005E5 /* kRUserLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545C5C1021904547006005E5 /* kRUserLoginView.xib */; };
+		581F44C276C6CEAB72B0D7EE /* Pods_KRLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4D698D54ED9DF315AF8AA4 /* Pods_KRLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5482C09C2176118E00FE61FC /* PBXContainerItemProxy */ = {
+		54223EA921900ECD0059EF3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5482C07B2176118C00FE61FC /* Project object */;
+			containerPortal = 54223E8C21900ECB0059EF3B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5482C0822176118C00FE61FC;
+			remoteGlobalIDString = 54223E9321900ECC0059EF3B;
 			remoteInfo = KRLogin;
 		};
-		5482C0A72176118E00FE61FC /* PBXContainerItemProxy */ = {
+		54223EB421900ECD0059EF3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5482C07B2176118C00FE61FC /* Project object */;
+			containerPortal = 54223E8C21900ECB0059EF3B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5482C0822176118C00FE61FC;
+			remoteGlobalIDString = 54223E9321900ECC0059EF3B;
 			remoteInfo = KRLogin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5482C0832176118C00FE61FC /* KRLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5482C0862176118C00FE61FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5482C0872176118C00FE61FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5482C0892176118C00FE61FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5482C08A2176118C00FE61FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5482C08D2176118C00FE61FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5482C08F2176118D00FE61FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5482C0922176118D00FE61FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5482C0942176118D00FE61FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5482C0952176118D00FE61FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5482C09B2176118E00FE61FC /* KRLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5482C09F2176118E00FE61FC /* KRLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRLoginTests.m; sourceTree = "<group>"; };
-		5482C0A12176118E00FE61FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5482C0A62176118E00FE61FC /* KRLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5482C0AA2176118E00FE61FC /* KRLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRLoginUITests.m; sourceTree = "<group>"; };
-		5482C0AC2176118E00FE61FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5482C0CB217613DC00FE61FC /* KRPasswordLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRPasswordLoginView.h; sourceTree = "<group>"; };
-		5482C0CC217613DC00FE61FC /* KRPasswordLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRPasswordLoginView.m; sourceTree = "<group>"; };
-		5482C0D72176140C00FE61FC /* KRPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRPasswordViewController.h; sourceTree = "<group>"; };
-		5482C0D82176140C00FE61FC /* KRPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRPasswordViewController.m; sourceTree = "<group>"; };
-		54FFE87D217757CD00B2CDFC /* KRPasswordLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRPasswordLoginView.xib; sourceTree = "<group>"; };
+		54223E9421900ECC0059EF3B /* KRLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54223E9721900ECC0059EF3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54223E9921900ECC0059EF3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54223E9C21900ECC0059EF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54223E9E21900ECD0059EF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54223EA121900ECD0059EF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54223EA321900ECD0059EF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54223EA821900ECD0059EF3B /* KRLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54223EAC21900ECD0059EF3B /* KRLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRLoginTests.swift; sourceTree = "<group>"; };
+		54223EAE21900ECD0059EF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54223EB321900ECD0059EF3B /* KRLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54223EB721900ECD0059EF3B /* KRLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRLoginUITests.swift; sourceTree = "<group>"; };
+		54223EB921900ECE0059EF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54223EC7219013ED0059EF3B /* KRLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRLoginViewController.swift; sourceTree = "<group>"; };
+		54223EC9219014190059EF3B /* KRRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRRootViewController.swift; sourceTree = "<group>"; };
+		545C5C0E2190452F006005E5 /* kRUserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kRUserLoginView.swift; sourceTree = "<group>"; };
+		545C5C1021904547006005E5 /* kRUserLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = kRUserLoginView.xib; sourceTree = "<group>"; };
+		58F2D880B319D01C4C892829 /* Pods-KRLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRLogin/Pods-KRLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		9689E693B7841E84AE588E6F /* Pods-KRLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRLogin/Pods-KRLogin.release.xcconfig"; sourceTree = "<group>"; };
+		BC4D698D54ED9DF315AF8AA4 /* Pods_KRLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5482C0802176118C00FE61FC /* Frameworks */ = {
+		54223E9121900ECC0059EF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581F44C276C6CEAB72B0D7EE /* Pods_KRLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54223EA521900ECD0059EF3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5482C0982176118E00FE61FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5482C0A32176118E00FE61FC /* Frameworks */ = {
+		54223EB021900ECD0059EF3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,131 +87,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5482C07A2176118C00FE61FC = {
+		54223E8B21900ECB0059EF3B = {
 			isa = PBXGroup;
 			children = (
-				5482C0852176118C00FE61FC /* KRLogin */,
-				5482C09E2176118E00FE61FC /* KRLoginTests */,
-				5482C0A92176118E00FE61FC /* KRLoginUITests */,
-				5482C0842176118C00FE61FC /* Products */,
+				54223E9621900ECC0059EF3B /* KRLogin */,
+				54223EAB21900ECD0059EF3B /* KRLoginTests */,
+				54223EB621900ECD0059EF3B /* KRLoginUITests */,
+				54223E9521900ECC0059EF3B /* Products */,
+				BAE579C36018670F95A8BE4B /* Pods */,
+				E5080B6D95CBFAD79E88AC52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5482C0842176118C00FE61FC /* Products */ = {
+		54223E9521900ECC0059EF3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0832176118C00FE61FC /* KRLogin.app */,
-				5482C09B2176118E00FE61FC /* KRLoginTests.xctest */,
-				5482C0A62176118E00FE61FC /* KRLoginUITests.xctest */,
+				54223E9421900ECC0059EF3B /* KRLogin.app */,
+				54223EA821900ECD0059EF3B /* KRLoginTests.xctest */,
+				54223EB321900ECD0059EF3B /* KRLoginUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5482C0852176118C00FE61FC /* KRLogin */ = {
+		54223E9621900ECC0059EF3B /* KRLogin */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0C7217613DC00FE61FC /* Module */,
-				5482C0862176118C00FE61FC /* AppDelegate.h */,
-				5482C0872176118C00FE61FC /* AppDelegate.m */,
-				5482C0892176118C00FE61FC /* ViewController.h */,
-				5482C08A2176118C00FE61FC /* ViewController.m */,
-				5482C08C2176118C00FE61FC /* Main.storyboard */,
-				5482C08F2176118D00FE61FC /* Assets.xcassets */,
-				5482C0912176118D00FE61FC /* LaunchScreen.storyboard */,
-				5482C0942176118D00FE61FC /* Info.plist */,
-				5482C0952176118D00FE61FC /* main.m */,
+				54223EC5219013D90059EF3B /* Module */,
+				54223E9721900ECC0059EF3B /* AppDelegate.swift */,
+				54223E9921900ECC0059EF3B /* ViewController.swift */,
+				54223E9B21900ECC0059EF3B /* Main.storyboard */,
+				54223E9E21900ECD0059EF3B /* Assets.xcassets */,
+				54223EA021900ECD0059EF3B /* LaunchScreen.storyboard */,
+				54223EA321900ECD0059EF3B /* Info.plist */,
+				54223EC9219014190059EF3B /* KRRootViewController.swift */,
 			);
 			path = KRLogin;
 			sourceTree = "<group>";
 		};
-		5482C09E2176118E00FE61FC /* KRLoginTests */ = {
+		54223EAB21900ECD0059EF3B /* KRLoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				5482C09F2176118E00FE61FC /* KRLoginTests.m */,
-				5482C0A12176118E00FE61FC /* Info.plist */,
+				54223EAC21900ECD0059EF3B /* KRLoginTests.swift */,
+				54223EAE21900ECD0059EF3B /* Info.plist */,
 			);
 			path = KRLoginTests;
 			sourceTree = "<group>";
 		};
-		5482C0A92176118E00FE61FC /* KRLoginUITests */ = {
+		54223EB621900ECD0059EF3B /* KRLoginUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0AA2176118E00FE61FC /* KRLoginUITests.m */,
-				5482C0AC2176118E00FE61FC /* Info.plist */,
+				54223EB721900ECD0059EF3B /* KRLoginUITests.swift */,
+				54223EB921900ECE0059EF3B /* Info.plist */,
 			);
 			path = KRLoginUITests;
 			sourceTree = "<group>";
 		};
-		5482C0C7217613DC00FE61FC /* Module */ = {
+		54223EC5219013D90059EF3B /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0C8217613DC00FE61FC /* PasswordLogin */,
-				5482C0CD217613DC00FE61FC /* FindPassword */,
+				54223EC6219013D90059EF3B /* Login */,
 			);
 			path = Module;
 			sourceTree = "<group>";
 		};
-		5482C0C8217613DC00FE61FC /* PasswordLogin */ = {
+		54223EC6219013D90059EF3B /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0C9217613DC00FE61FC /* Controller */,
-				5482C0CA217613DC00FE61FC /* View */,
+				54223EC7219013ED0059EF3B /* KRLoginViewController.swift */,
+				545C5C0E2190452F006005E5 /* kRUserLoginView.swift */,
+				545C5C1021904547006005E5 /* kRUserLoginView.xib */,
 			);
-			path = PasswordLogin;
+			path = Login;
 			sourceTree = "<group>";
 		};
-		5482C0C9217613DC00FE61FC /* Controller */ = {
+		BAE579C36018670F95A8BE4B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0D72176140C00FE61FC /* KRPasswordViewController.h */,
-				5482C0D82176140C00FE61FC /* KRPasswordViewController.m */,
+				58F2D880B319D01C4C892829 /* Pods-KRLogin.debug.xcconfig */,
+				9689E693B7841E84AE588E6F /* Pods-KRLogin.release.xcconfig */,
 			);
-			path = Controller;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		5482C0CA217613DC00FE61FC /* View */ = {
+		E5080B6D95CBFAD79E88AC52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5482C0CB217613DC00FE61FC /* KRPasswordLoginView.h */,
-				5482C0CC217613DC00FE61FC /* KRPasswordLoginView.m */,
-				54FFE87D217757CD00B2CDFC /* KRPasswordLoginView.xib */,
+				BC4D698D54ED9DF315AF8AA4 /* Pods_KRLogin.framework */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5482C0CD217613DC00FE61FC /* FindPassword */ = {
-			isa = PBXGroup;
-			children = (
-				5482C0CE217613DC00FE61FC /* Controller */,
-				5482C0CF217613DC00FE61FC /* View */,
-			);
-			path = FindPassword;
-			sourceTree = "<group>";
-		};
-		5482C0CE217613DC00FE61FC /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		5482C0CF217613DC00FE61FC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5482C0822176118C00FE61FC /* KRLogin */ = {
+		54223E9321900ECC0059EF3B /* KRLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5482C0AF2176118E00FE61FC /* Build configuration list for PBXNativeTarget "KRLogin" */;
+			buildConfigurationList = 54223EBC21900ECE0059EF3B /* Build configuration list for PBXNativeTarget "KRLogin" */;
 			buildPhases = (
-				5482C07F2176118C00FE61FC /* Sources */,
-				5482C0802176118C00FE61FC /* Frameworks */,
-				5482C0812176118C00FE61FC /* Resources */,
+				7DDDC658DC15250B738AF0C1 /* [CP] Check Pods Manifest.lock */,
+				54223E9021900ECC0059EF3B /* Sources */,
+				54223E9121900ECC0059EF3B /* Frameworks */,
+				54223E9221900ECC0059EF3B /* Resources */,
+				DDC39D9412C9B94600C69943 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,68 +196,69 @@
 			);
 			name = KRLogin;
 			productName = KRLogin;
-			productReference = 5482C0832176118C00FE61FC /* KRLogin.app */;
+			productReference = 54223E9421900ECC0059EF3B /* KRLogin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5482C09A2176118E00FE61FC /* KRLoginTests */ = {
+		54223EA721900ECD0059EF3B /* KRLoginTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5482C0B22176118E00FE61FC /* Build configuration list for PBXNativeTarget "KRLoginTests" */;
+			buildConfigurationList = 54223EBF21900ECE0059EF3B /* Build configuration list for PBXNativeTarget "KRLoginTests" */;
 			buildPhases = (
-				5482C0972176118E00FE61FC /* Sources */,
-				5482C0982176118E00FE61FC /* Frameworks */,
-				5482C0992176118E00FE61FC /* Resources */,
+				54223EA421900ECD0059EF3B /* Sources */,
+				54223EA521900ECD0059EF3B /* Frameworks */,
+				54223EA621900ECD0059EF3B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5482C09D2176118E00FE61FC /* PBXTargetDependency */,
+				54223EAA21900ECD0059EF3B /* PBXTargetDependency */,
 			);
 			name = KRLoginTests;
 			productName = KRLoginTests;
-			productReference = 5482C09B2176118E00FE61FC /* KRLoginTests.xctest */;
+			productReference = 54223EA821900ECD0059EF3B /* KRLoginTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5482C0A52176118E00FE61FC /* KRLoginUITests */ = {
+		54223EB221900ECD0059EF3B /* KRLoginUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5482C0B52176118E00FE61FC /* Build configuration list for PBXNativeTarget "KRLoginUITests" */;
+			buildConfigurationList = 54223EC221900ECE0059EF3B /* Build configuration list for PBXNativeTarget "KRLoginUITests" */;
 			buildPhases = (
-				5482C0A22176118E00FE61FC /* Sources */,
-				5482C0A32176118E00FE61FC /* Frameworks */,
-				5482C0A42176118E00FE61FC /* Resources */,
+				54223EAF21900ECD0059EF3B /* Sources */,
+				54223EB021900ECD0059EF3B /* Frameworks */,
+				54223EB121900ECD0059EF3B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5482C0A82176118E00FE61FC /* PBXTargetDependency */,
+				54223EB521900ECD0059EF3B /* PBXTargetDependency */,
 			);
 			name = KRLoginUITests;
 			productName = KRLoginUITests;
-			productReference = 5482C0A62176118E00FE61FC /* KRLoginUITests.xctest */;
+			productReference = 54223EB321900ECD0059EF3B /* KRLoginUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5482C07B2176118C00FE61FC /* Project object */ = {
+		54223E8C21900ECB0059EF3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = RK;
 				TargetAttributes = {
-					5482C0822176118C00FE61FC = {
-						CreatedOnToolsVersion = 10.0;
+					54223E9321900ECC0059EF3B = {
+						CreatedOnToolsVersion = 10.1;
 					};
-					5482C09A2176118E00FE61FC = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 5482C0822176118C00FE61FC;
+					54223EA721900ECD0059EF3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54223E9321900ECC0059EF3B;
 					};
-					5482C0A52176118E00FE61FC = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 5482C0822176118C00FE61FC;
+					54223EB221900ECD0059EF3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54223E9321900ECC0059EF3B;
 					};
 				};
 			};
-			buildConfigurationList = 5482C07E2176118C00FE61FC /* Build configuration list for PBXProject "KRLogin" */;
+			buildConfigurationList = 54223E8F21900ECB0059EF3B /* Build configuration list for PBXProject "KRLogin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,38 +266,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 5482C07A2176118C00FE61FC;
-			productRefGroup = 5482C0842176118C00FE61FC /* Products */;
+			mainGroup = 54223E8B21900ECB0059EF3B;
+			productRefGroup = 54223E9521900ECC0059EF3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5482C0822176118C00FE61FC /* KRLogin */,
-				5482C09A2176118E00FE61FC /* KRLoginTests */,
-				5482C0A52176118E00FE61FC /* KRLoginUITests */,
+				54223E9321900ECC0059EF3B /* KRLogin */,
+				54223EA721900ECD0059EF3B /* KRLoginTests */,
+				54223EB221900ECD0059EF3B /* KRLoginUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5482C0812176118C00FE61FC /* Resources */ = {
+		54223E9221900ECC0059EF3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5482C0932176118D00FE61FC /* LaunchScreen.storyboard in Resources */,
-				5482C0902176118D00FE61FC /* Assets.xcassets in Resources */,
-				54FFE87E217757CD00B2CDFC /* KRPasswordLoginView.xib in Resources */,
-				5482C08E2176118C00FE61FC /* Main.storyboard in Resources */,
+				545C5C1121904547006005E5 /* kRUserLoginView.xib in Resources */,
+				54223EA221900ECD0059EF3B /* LaunchScreen.storyboard in Resources */,
+				54223E9F21900ECD0059EF3B /* Assets.xcassets in Resources */,
+				54223E9D21900ECC0059EF3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5482C0992176118E00FE61FC /* Resources */ = {
+		54223EA621900ECD0059EF3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5482C0A42176118E00FE61FC /* Resources */ = {
+		54223EB121900ECD0059EF3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,63 +306,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DDDC658DC15250B738AF0C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC39D9412C9B94600C69943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KRLogin/Pods-KRLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRLogin/Pods-KRLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5482C07F2176118C00FE61FC /* Sources */ = {
+		54223E9021900ECC0059EF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5482C0D5217613DC00FE61FC /* KRPasswordLoginView.m in Sources */,
-				5482C08B2176118C00FE61FC /* ViewController.m in Sources */,
-				5482C0D92176140C00FE61FC /* KRPasswordViewController.m in Sources */,
-				5482C0962176118D00FE61FC /* main.m in Sources */,
-				5482C0882176118C00FE61FC /* AppDelegate.m in Sources */,
+				545C5C0F2190452F006005E5 /* kRUserLoginView.swift in Sources */,
+				54223E9A21900ECC0059EF3B /* ViewController.swift in Sources */,
+				54223ECA219014190059EF3B /* KRRootViewController.swift in Sources */,
+				54223E9821900ECC0059EF3B /* AppDelegate.swift in Sources */,
+				54223EC8219013ED0059EF3B /* KRLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5482C0972176118E00FE61FC /* Sources */ = {
+		54223EA421900ECD0059EF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5482C0A02176118E00FE61FC /* KRLoginTests.m in Sources */,
+				54223EAD21900ECD0059EF3B /* KRLoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5482C0A22176118E00FE61FC /* Sources */ = {
+		54223EAF21900ECD0059EF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5482C0AB2176118E00FE61FC /* KRLoginUITests.m in Sources */,
+				54223EB821900ECD0059EF3B /* KRLoginUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5482C09D2176118E00FE61FC /* PBXTargetDependency */ = {
+		54223EAA21900ECD0059EF3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5482C0822176118C00FE61FC /* KRLogin */;
-			targetProxy = 5482C09C2176118E00FE61FC /* PBXContainerItemProxy */;
+			target = 54223E9321900ECC0059EF3B /* KRLogin */;
+			targetProxy = 54223EA921900ECD0059EF3B /* PBXContainerItemProxy */;
 		};
-		5482C0A82176118E00FE61FC /* PBXTargetDependency */ = {
+		54223EB521900ECD0059EF3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5482C0822176118C00FE61FC /* KRLogin */;
-			targetProxy = 5482C0A72176118E00FE61FC /* PBXContainerItemProxy */;
+			target = 54223E9321900ECC0059EF3B /* KRLogin */;
+			targetProxy = 54223EB421900ECD0059EF3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5482C08C2176118C00FE61FC /* Main.storyboard */ = {
+		54223E9B21900ECC0059EF3B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5482C08D2176118C00FE61FC /* Base */,
+				54223E9C21900ECC0059EF3B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5482C0912176118D00FE61FC /* LaunchScreen.storyboard */ = {
+		54223EA021900ECD0059EF3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5482C0922176118D00FE61FC /* Base */,
+				54223EA121900ECD0059EF3B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -391,7 +409,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5482C0AD2176118E00FE61FC /* Debug */ = {
+		54223EBA21900ECE0059EF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,15 +460,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5482C0AE2176118E00FE61FC /* Release */ = {
+		54223EBB21900ECE0059EF3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,16 +515,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5482C0B02176118E00FE61FC /* Debug */ = {
+		54223EBD21900ECE0059EF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F2D880B319D01C4C892829 /* Pods-KRLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,12 +538,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5482C0B12176118E00FE61FC /* Release */ = {
+		54223EBE21900ECE0059EF3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9689E693B7841E84AE588E6F /* Pods-KRLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,13 +556,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5482C0B32176118E00FE61FC /* Debug */ = {
+		54223EC021900ECE0059EF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRLoginTests/Info.plist;
@@ -548,14 +575,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRLogin.app/KRLogin";
 			};
 			name = Debug;
 		};
-		5482C0B42176118E00FE61FC /* Release */ = {
+		54223EC121900ECE0059EF3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRLoginTests/Info.plist;
@@ -566,14 +595,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRLogin.app/KRLogin";
 			};
 			name = Release;
 		};
-		5482C0B62176118E00FE61FC /* Debug */ = {
+		54223EC321900ECE0059EF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,14 +614,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KRLogin;
 			};
 			name = Debug;
 		};
-		5482C0B72176118E00FE61FC /* Release */ = {
+		54223EC421900ECE0059EF3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,6 +633,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KRLogin;
 			};
@@ -608,43 +642,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5482C07E2176118C00FE61FC /* Build configuration list for PBXProject "KRLogin" */ = {
+		54223E8F21900ECB0059EF3B /* Build configuration list for PBXProject "KRLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5482C0AD2176118E00FE61FC /* Debug */,
-				5482C0AE2176118E00FE61FC /* Release */,
+				54223EBA21900ECE0059EF3B /* Debug */,
+				54223EBB21900ECE0059EF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5482C0AF2176118E00FE61FC /* Build configuration list for PBXNativeTarget "KRLogin" */ = {
+		54223EBC21900ECE0059EF3B /* Build configuration list for PBXNativeTarget "KRLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5482C0B02176118E00FE61FC /* Debug */,
-				5482C0B12176118E00FE61FC /* Release */,
+				54223EBD21900ECE0059EF3B /* Debug */,
+				54223EBE21900ECE0059EF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5482C0B22176118E00FE61FC /* Build configuration list for PBXNativeTarget "KRLoginTests" */ = {
+		54223EBF21900ECE0059EF3B /* Build configuration list for PBXNativeTarget "KRLoginTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5482C0B32176118E00FE61FC /* Debug */,
-				5482C0B42176118E00FE61FC /* Release */,
+				54223EC021900ECE0059EF3B /* Debug */,
+				54223EC121900ECE0059EF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5482C0B52176118E00FE61FC /* Build configuration list for PBXNativeTarget "KRLoginUITests" */ = {
+		54223EC221900ECE0059EF3B /* Build configuration list for PBXNativeTarget "KRLoginUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5482C0B62176118E00FE61FC /* Debug */,
-				5482C0B72176118E00FE61FC /* Release */,
+				54223EC321900ECE0059EF3B /* Debug */,
+				54223EC421900ECE0059EF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5482C07B2176118C00FE61FC /* Project object */;
+	rootObject = 54223E8C21900ECB0059EF3B /* Project object */;
 }
