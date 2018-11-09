@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  KRLogin
+//  KRDownLoad
 //
-//  Created by RK on 2018/11/5.
+//  Created by RK on 2018/11/7.
 //  Copyright © 2018年 RK. All rights reserved.
 //
 
@@ -12,6 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+    }
+    
+    func useInvoactionOpreation()  {
+        let op = useInvoactionOpre
     }
 
 
