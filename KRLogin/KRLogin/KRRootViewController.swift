@@ -11,7 +11,6 @@ import CYLTabBarController
 
 class KRRootViewController: UIViewController {
 
-    
     //MARK: -life
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +24,8 @@ class KRRootViewController: UIViewController {
     
     //MARK: -业务
     @objc func showLogin() {
-        
+        let loginVC = KRLoginViewController()
+        self.navigationController?.pushViewController(loginVC, animated: true)
     }
 
 }

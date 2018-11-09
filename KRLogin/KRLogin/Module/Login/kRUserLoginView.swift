@@ -8,7 +8,16 @@
 
 import UIKit
 
-class kRUserLoginView: UIView {
+protocol KRPhoneLoginDelegate {
+    func accountLogin()
+}
+
+class KRPhoneLoginView: UIView {
     @IBOutlet weak var loginButton: UIButton!
     
+    var delegate:KRPhoneLoginDelegate?
+    
+    @IBAction func accountLogin(_ sender: Any) {
+        self.delegate?.accountLogin()
+    }
 }

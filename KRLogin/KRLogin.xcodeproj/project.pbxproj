@@ -18,6 +18,11 @@
 		54223ECA219014190059EF3B /* KRRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54223EC9219014190059EF3B /* KRRootViewController.swift */; };
 		545C5C0F2190452F006005E5 /* kRUserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C5C0E2190452F006005E5 /* kRUserLoginView.swift */; };
 		545C5C1121904547006005E5 /* kRUserLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545C5C1021904547006005E5 /* kRUserLoginView.xib */; };
+		54FCAB8321955F8C0026482B /* KRRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCAB8221955F8C0026482B /* KRRegisterViewController.swift */; };
+		54FCAB8521955FAB0026482B /* KRUserRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCAB8421955FAB0026482B /* KRUserRegisterView.swift */; };
+		54FCAB8721955FB50026482B /* KRUserRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FCAB8621955FB50026482B /* KRUserRegisterView.xib */; };
+		54FCAB89219563F80026482B /* KRAccountLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCAB88219563F80026482B /* KRAccountLoginView.swift */; };
+		54FCAB8B219564030026482B /* KRAccountLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FCAB8A219564030026482B /* KRAccountLoginView.xib */; };
 		581F44C276C6CEAB72B0D7EE /* Pods_KRLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4D698D54ED9DF315AF8AA4 /* Pods_KRLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +61,11 @@
 		54223EC9219014190059EF3B /* KRRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRRootViewController.swift; sourceTree = "<group>"; };
 		545C5C0E2190452F006005E5 /* kRUserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kRUserLoginView.swift; sourceTree = "<group>"; };
 		545C5C1021904547006005E5 /* kRUserLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = kRUserLoginView.xib; sourceTree = "<group>"; };
+		54FCAB8221955F8C0026482B /* KRRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRRegisterViewController.swift; sourceTree = "<group>"; };
+		54FCAB8421955FAB0026482B /* KRUserRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRUserRegisterView.swift; sourceTree = "<group>"; };
+		54FCAB8621955FB50026482B /* KRUserRegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRUserRegisterView.xib; sourceTree = "<group>"; };
+		54FCAB88219563F80026482B /* KRAccountLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAccountLoginView.swift; sourceTree = "<group>"; };
+		54FCAB8A219564030026482B /* KRAccountLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRAccountLoginView.xib; sourceTree = "<group>"; };
 		58F2D880B319D01C4C892829 /* Pods-KRLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRLogin/Pods-KRLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		9689E693B7841E84AE588E6F /* Pods-KRLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRLogin/Pods-KRLogin.release.xcconfig"; sourceTree = "<group>"; };
 		BC4D698D54ED9DF315AF8AA4 /* Pods_KRLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +166,11 @@
 				54223EC7219013ED0059EF3B /* KRLoginViewController.swift */,
 				545C5C0E2190452F006005E5 /* kRUserLoginView.swift */,
 				545C5C1021904547006005E5 /* kRUserLoginView.xib */,
+				54FCAB8221955F8C0026482B /* KRRegisterViewController.swift */,
+				54FCAB8421955FAB0026482B /* KRUserRegisterView.swift */,
+				54FCAB8621955FB50026482B /* KRUserRegisterView.xib */,
+				54FCAB88219563F80026482B /* KRAccountLoginView.swift */,
+				54FCAB8A219564030026482B /* KRAccountLoginView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -286,7 +301,9 @@
 				545C5C1121904547006005E5 /* kRUserLoginView.xib in Resources */,
 				54223EA221900ECD0059EF3B /* LaunchScreen.storyboard in Resources */,
 				54223E9F21900ECD0059EF3B /* Assets.xcassets in Resources */,
+				54FCAB8721955FB50026482B /* KRUserRegisterView.xib in Resources */,
 				54223E9D21900ECC0059EF3B /* Main.storyboard in Resources */,
+				54FCAB8B219564030026482B /* KRAccountLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,10 +367,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54FCAB8321955F8C0026482B /* KRRegisterViewController.swift in Sources */,
+				54FCAB89219563F80026482B /* KRAccountLoginView.swift in Sources */,
 				545C5C0F2190452F006005E5 /* kRUserLoginView.swift in Sources */,
 				54223E9A21900ECC0059EF3B /* ViewController.swift in Sources */,
 				54223ECA219014190059EF3B /* KRRootViewController.swift in Sources */,
 				54223E9821900ECC0059EF3B /* AppDelegate.swift in Sources */,
+				54FCAB8521955FAB0026482B /* KRUserRegisterView.swift in Sources */,
 				54223EC8219013ED0059EF3B /* KRLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
