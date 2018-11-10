@@ -19,6 +19,7 @@ class KRLoginViewController: UIViewController, KRPhoneLoginDelegate, KRAccountLo
         super.viewDidLoad()
         self.accountView.isHidden = true
         self.loginView.delegate = self
+        self.accountView.delegate = self;
         
         self.view.addSubview(self.loginView)
         self.view.addSubview(self.accountView)

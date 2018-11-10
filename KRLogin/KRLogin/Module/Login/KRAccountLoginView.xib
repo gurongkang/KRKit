@@ -91,7 +91,7 @@
                         <color key="titleColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
-                        <action selector="phonelogin:" destination="iN0-l3-epB" eventType="touchDragInside" id="PTr-ry-7nq"/>
+                        <action selector="phonelogin:" destination="iN0-l3-epB" eventType="touchUpInside" id="8US-Eb-vp4"/>
                     </connections>
                 </button>
             </subviews>
@@ -116,9 +116,6 @@
                 <constraint firstItem="F72-e8-c5O" firstAttribute="leading" secondItem="NE0-gZ-9Hp" secondAttribute="trailing" constant="20" id="y3F-lN-tRf"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <connections>
-                <outlet property="phoneLogin" destination="OaN-pb-xyy" id="dKG-8D-ZAY"/>
-            </connections>
             <point key="canvasLocation" x="140" y="154.27286356821591"/>
         </view>
     </objects>
