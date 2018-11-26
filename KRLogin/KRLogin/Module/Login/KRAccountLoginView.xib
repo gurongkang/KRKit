@@ -17,36 +17,36 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账号密码登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZy-ZP-f0X">
-                    <rect key="frame" x="45" y="60" width="230" height="45.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                    <rect key="frame" x="45" y="60" width="170.5" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
                     <color key="textColor" red="0.23529411764705882" green="0.25490196078431371" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dB8-lG-Qyo">
-                    <rect key="frame" x="45" y="165.5" width="285" height="60"/>
+                    <rect key="frame" x="45" y="153.5" width="285" height="20"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bJX-b4-4ew">
-                            <rect key="frame" x="0.0" y="0.0" width="285" height="17"/>
+                            <rect key="frame" x="0.0" y="0.0" width="285" height="20"/>
                             <nil key="textColor"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="bJX-b4-4ew" secondAttribute="trailing" id="7v4-OH-b25"/>
-                        <constraint firstAttribute="height" constant="60" id="A4J-iZ-vDL"/>
+                        <constraint firstAttribute="height" constant="20" id="A4J-iZ-vDL"/>
                         <constraint firstItem="bJX-b4-4ew" firstAttribute="top" secondItem="dB8-lG-Qyo" secondAttribute="top" id="Kgp-9h-o4f"/>
                         <constraint firstItem="bJX-b4-4ew" firstAttribute="leading" secondItem="dB8-lG-Qyo" secondAttribute="leading" id="aGL-IQ-sZ2"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhh-0x-MOM">
-                    <rect key="frame" x="45" y="245.5" width="285" height="60"/>
+                    <rect key="frame" x="45" y="193.5" width="285" height="20"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dIK-LQ-PBe">
-                            <rect key="frame" x="0.0" y="0.0" width="285" height="17"/>
+                            <rect key="frame" x="0.0" y="0.0" width="285" height="20"/>
                             <nil key="textColor"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
@@ -54,15 +54,15 @@
                     <constraints>
                         <constraint firstItem="dIK-LQ-PBe" firstAttribute="leading" secondItem="Dhh-0x-MOM" secondAttribute="leading" id="MHM-Ge-qAj"/>
                         <constraint firstAttribute="trailing" secondItem="dIK-LQ-PBe" secondAttribute="trailing" id="O8P-Az-tdy"/>
-                        <constraint firstAttribute="height" constant="60" id="RU4-SZ-guA"/>
+                        <constraint firstAttribute="height" constant="20" id="RU4-SZ-guA"/>
                         <constraint firstItem="dIK-LQ-PBe" firstAttribute="top" secondItem="Dhh-0x-MOM" secondAttribute="top" id="ryu-x1-opY"/>
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75x-nt-j6z">
-                    <rect key="frame" x="45" y="345.5" width="285" height="70"/>
+                    <rect key="frame" x="45" y="253.5" width="285" height="42"/>
                     <color key="backgroundColor" red="0.40000000000000002" green="0.81176470588235294" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="70" id="Zs7-HH-hWW"/>
+                        <constraint firstAttribute="height" constant="42" id="Zs7-HH-hWW"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <state key="normal" title="登录">
@@ -70,7 +70,7 @@
                     </state>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NE0-gZ-9Hp">
-                    <rect key="frame" x="187" y="440.5" width="1" height="25"/>
+                    <rect key="frame" x="187" y="320.5" width="1" height="25"/>
                     <color key="backgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="8DK-ee-pOe"/>
@@ -78,15 +78,15 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F72-e8-c5O">
-                    <rect key="frame" x="208" y="440.5" width="74" height="34"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <rect key="frame" x="208" y="320.5" width="66" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <state key="normal" title="忘记密码">
                         <color key="titleColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaN-pb-xyy">
-                    <rect key="frame" x="56" y="440.5" width="111" height="34"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <rect key="frame" x="69" y="320.5" width="98" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <state key="normal" title="手机快捷登录">
                         <color key="titleColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
