@@ -163,14 +163,14 @@
 		54223EC6219013D90059EF3B /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				54223EC7219013ED0059EF3B /* KRLoginViewController.swift */,
-				545C5C0E2190452F006005E5 /* kRUserLoginView.swift */,
-				545C5C1021904547006005E5 /* kRUserLoginView.xib */,
-				54FCAB8221955F8C0026482B /* KRRegisterViewController.swift */,
-				54FCAB8421955FAB0026482B /* KRUserRegisterView.swift */,
-				54FCAB8621955FB50026482B /* KRUserRegisterView.xib */,
 				54FCAB88219563F80026482B /* KRAccountLoginView.swift */,
 				54FCAB8A219564030026482B /* KRAccountLoginView.xib */,
+				54223EC7219013ED0059EF3B /* KRLoginViewController.swift */,
+				54FCAB8221955F8C0026482B /* KRRegisterViewController.swift */,
+				545C5C0E2190452F006005E5 /* kRUserLoginView.swift */,
+				545C5C1021904547006005E5 /* kRUserLoginView.xib */,
+				54FCAB8421955FAB0026482B /* KRUserRegisterView.swift */,
+				54FCAB8621955FB50026482B /* KRUserRegisterView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";

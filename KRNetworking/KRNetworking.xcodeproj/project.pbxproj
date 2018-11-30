@@ -7,71 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DDD44C810C35ECD409934DD /* Pods_KRNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D458FD665EA75E9B835E01A2 /* Pods_KRNetworking.framework */; };
-		54C24986219A8D5300C521B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C24985219A8D5300C521B2 /* AppDelegate.swift */; };
-		54C24988219A8D5300C521B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C24987219A8D5300C521B2 /* ViewController.swift */; };
-		54C2498B219A8D5300C521B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C24989219A8D5300C521B2 /* Main.storyboard */; };
-		54C2498D219A8D5500C521B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C2498C219A8D5500C521B2 /* Assets.xcassets */; };
-		54C24990219A8D5500C521B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C2498E219A8D5500C521B2 /* LaunchScreen.storyboard */; };
-		54C2499B219A8D5500C521B2 /* KRNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2499A219A8D5500C521B2 /* KRNetworkingTests.swift */; };
-		54C249A6219A8D5500C521B2 /* KRNetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C249A5219A8D5500C521B2 /* KRNetworkingUITests.swift */; };
-		54C249B5219A9E9E00C521B2 /* KKNetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C249B4219A9E9E00C521B2 /* KKNetApi.swift */; };
+		5456D89821B1A0A10020AB94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D89721B1A0A10020AB94 /* AppDelegate.m */; };
+		5456D89B21B1A0A20020AB94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D89A21B1A0A20020AB94 /* ViewController.m */; };
+		5456D89E21B1A0A20020AB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5456D89C21B1A0A20020AB94 /* Main.storyboard */; };
+		5456D8A021B1A0A30020AB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5456D89F21B1A0A30020AB94 /* Assets.xcassets */; };
+		5456D8A321B1A0A30020AB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5456D8A121B1A0A30020AB94 /* LaunchScreen.storyboard */; };
+		5456D8A621B1A0A30020AB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8A521B1A0A30020AB94 /* main.m */; };
+		5456D8B021B1A0A40020AB94 /* KRNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8AF21B1A0A40020AB94 /* KRNetworkingTests.m */; };
+		5456D8BB21B1A0A40020AB94 /* KRNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8BA21B1A0A40020AB94 /* KRNetworkingUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54C24997219A8D5500C521B2 /* PBXContainerItemProxy */ = {
+		5456D8AC21B1A0A40020AB94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54C2497A219A8D5300C521B2 /* Project object */;
+			containerPortal = 5456D88B21B1A0A10020AB94 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54C24981219A8D5300C521B2;
+			remoteGlobalIDString = 5456D89221B1A0A10020AB94;
 			remoteInfo = KRNetworking;
 		};
-		54C249A2219A8D5500C521B2 /* PBXContainerItemProxy */ = {
+		5456D8B721B1A0A40020AB94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54C2497A219A8D5300C521B2 /* Project object */;
+			containerPortal = 5456D88B21B1A0A10020AB94 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54C24981219A8D5300C521B2;
+			remoteGlobalIDString = 5456D89221B1A0A10020AB94;
 			remoteInfo = KRNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06917E1A2BD167ED2A22B5A9 /* Pods-KRNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRNetworking/Pods-KRNetworking.debug.xcconfig"; sourceTree = "<group>"; };
-		54C24982219A8D5300C521B2 /* KRNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54C24985219A8D5300C521B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54C24987219A8D5300C521B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54C2498A219A8D5300C521B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54C2498C219A8D5500C521B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54C2498F219A8D5500C521B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54C24991219A8D5500C521B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54C24996219A8D5500C521B2 /* KRNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54C2499A219A8D5500C521B2 /* KRNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNetworkingTests.swift; sourceTree = "<group>"; };
-		54C2499C219A8D5500C521B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54C249A1219A8D5500C521B2 /* KRNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54C249A5219A8D5500C521B2 /* KRNetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNetworkingUITests.swift; sourceTree = "<group>"; };
-		54C249A7219A8D5500C521B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54C249B4219A9E9E00C521B2 /* KKNetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKNetApi.swift; sourceTree = "<group>"; };
-		D458FD665EA75E9B835E01A2 /* Pods_KRNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD7D0E6090875E3150DACA8 /* Pods-KRNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRNetworking/Pods-KRNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		5456D89321B1A0A10020AB94 /* KRNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5456D89621B1A0A10020AB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5456D89721B1A0A10020AB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5456D89921B1A0A20020AB94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5456D89A21B1A0A20020AB94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5456D89D21B1A0A20020AB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5456D89F21B1A0A30020AB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5456D8A221B1A0A30020AB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5456D8A421B1A0A30020AB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5456D8A521B1A0A30020AB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5456D8AB21B1A0A40020AB94 /* KRNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5456D8AF21B1A0A40020AB94 /* KRNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRNetworkingTests.m; sourceTree = "<group>"; };
+		5456D8B121B1A0A40020AB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5456D8B621B1A0A40020AB94 /* KRNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5456D8BA21B1A0A40020AB94 /* KRNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRNetworkingUITests.m; sourceTree = "<group>"; };
+		5456D8BC21B1A0A40020AB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54C2497F219A8D5300C521B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DDD44C810C35ECD409934DD /* Pods_KRNetworking.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54C24993219A8D5500C521B2 /* Frameworks */ = {
+		5456D89021B1A0A10020AB94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54C2499E219A8D5500C521B2 /* Frameworks */ = {
+		5456D8A821B1A0A40020AB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456D8B321B1A0A40020AB94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,97 +78,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CC5D6709A3748173B95768F /* Frameworks */ = {
+		5456D88A21B1A0A10020AB94 = {
 			isa = PBXGroup;
 			children = (
-				D458FD665EA75E9B835E01A2 /* Pods_KRNetworking.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		54C24979219A8D5300C521B2 = {
-			isa = PBXGroup;
-			children = (
-				54C24984219A8D5300C521B2 /* KRNetworking */,
-				54C24999219A8D5500C521B2 /* KRNetworkingTests */,
-				54C249A4219A8D5500C521B2 /* KRNetworkingUITests */,
-				54C24983219A8D5300C521B2 /* Products */,
-				D4167237E4AE7A729820DD26 /* Pods */,
-				0CC5D6709A3748173B95768F /* Frameworks */,
+				5456D89521B1A0A10020AB94 /* KRNetworking */,
+				5456D8AE21B1A0A40020AB94 /* KRNetworkingTests */,
+				5456D8B921B1A0A40020AB94 /* KRNetworkingUITests */,
+				5456D89421B1A0A10020AB94 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		54C24983219A8D5300C521B2 /* Products */ = {
+		5456D89421B1A0A10020AB94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54C24982219A8D5300C521B2 /* KRNetworking.app */,
-				54C24996219A8D5500C521B2 /* KRNetworkingTests.xctest */,
-				54C249A1219A8D5500C521B2 /* KRNetworkingUITests.xctest */,
+				5456D89321B1A0A10020AB94 /* KRNetworking.app */,
+				5456D8AB21B1A0A40020AB94 /* KRNetworkingTests.xctest */,
+				5456D8B621B1A0A40020AB94 /* KRNetworkingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54C24984219A8D5300C521B2 /* KRNetworking */ = {
+		5456D89521B1A0A10020AB94 /* KRNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				54C249B3219A8F2200C521B2 /* Classes */,
-				54C24985219A8D5300C521B2 /* AppDelegate.swift */,
-				54C24987219A8D5300C521B2 /* ViewController.swift */,
-				54C24989219A8D5300C521B2 /* Main.storyboard */,
-				54C2498C219A8D5500C521B2 /* Assets.xcassets */,
-				54C2498E219A8D5500C521B2 /* LaunchScreen.storyboard */,
-				54C24991219A8D5500C521B2 /* Info.plist */,
+				5456D8C821B1A0E60020AB94 /* KRNetworking */,
+				5456D89621B1A0A10020AB94 /* AppDelegate.h */,
+				5456D89721B1A0A10020AB94 /* AppDelegate.m */,
+				5456D89921B1A0A20020AB94 /* ViewController.h */,
+				5456D89A21B1A0A20020AB94 /* ViewController.m */,
+				5456D89C21B1A0A20020AB94 /* Main.storyboard */,
+				5456D89F21B1A0A30020AB94 /* Assets.xcassets */,
+				5456D8A121B1A0A30020AB94 /* LaunchScreen.storyboard */,
+				5456D8A421B1A0A30020AB94 /* Info.plist */,
+				5456D8A521B1A0A30020AB94 /* main.m */,
 			);
 			path = KRNetworking;
 			sourceTree = "<group>";
 		};
-		54C24999219A8D5500C521B2 /* KRNetworkingTests */ = {
+		5456D8AE21B1A0A40020AB94 /* KRNetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				54C2499A219A8D5500C521B2 /* KRNetworkingTests.swift */,
-				54C2499C219A8D5500C521B2 /* Info.plist */,
+				5456D8AF21B1A0A40020AB94 /* KRNetworkingTests.m */,
+				5456D8B121B1A0A40020AB94 /* Info.plist */,
 			);
 			path = KRNetworkingTests;
 			sourceTree = "<group>";
 		};
-		54C249A4219A8D5500C521B2 /* KRNetworkingUITests */ = {
+		5456D8B921B1A0A40020AB94 /* KRNetworkingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				54C249A5219A8D5500C521B2 /* KRNetworkingUITests.swift */,
-				54C249A7219A8D5500C521B2 /* Info.plist */,
+				5456D8BA21B1A0A40020AB94 /* KRNetworkingUITests.m */,
+				5456D8BC21B1A0A40020AB94 /* Info.plist */,
 			);
 			path = KRNetworkingUITests;
 			sourceTree = "<group>";
 		};
-		54C249B3219A8F2200C521B2 /* Classes */ = {
+		5456D8C821B1A0E60020AB94 /* KRNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				54C249B4219A9E9E00C521B2 /* KKNetApi.swift */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D4167237E4AE7A729820DD26 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				06917E1A2BD167ED2A22B5A9 /* Pods-KRNetworking.debug.xcconfig */,
-				FAD7D0E6090875E3150DACA8 /* Pods-KRNetworking.release.xcconfig */,
-			);
-			name = Pods;
+			path = KRNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54C24981219A8D5300C521B2 /* KRNetworking */ = {
+		5456D89221B1A0A10020AB94 /* KRNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54C249AA219A8D5500C521B2 /* Build configuration list for PBXNativeTarget "KRNetworking" */;
+			buildConfigurationList = 5456D8BF21B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworking" */;
 			buildPhases = (
-				C386E0021FB7D2FD06213529 /* [CP] Check Pods Manifest.lock */,
-				54C2497E219A8D5300C521B2 /* Sources */,
-				54C2497F219A8D5300C521B2 /* Frameworks */,
-				54C24980219A8D5300C521B2 /* Resources */,
-				B832FEE177E6637A9B09BD4E /* [CP] Embed Pods Frameworks */,
+				5456D88F21B1A0A10020AB94 /* Sources */,
+				5456D89021B1A0A10020AB94 /* Frameworks */,
+				5456D89121B1A0A10020AB94 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -179,69 +157,68 @@
 			);
 			name = KRNetworking;
 			productName = KRNetworking;
-			productReference = 54C24982219A8D5300C521B2 /* KRNetworking.app */;
+			productReference = 5456D89321B1A0A10020AB94 /* KRNetworking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54C24995219A8D5500C521B2 /* KRNetworkingTests */ = {
+		5456D8AA21B1A0A40020AB94 /* KRNetworkingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54C249AD219A8D5500C521B2 /* Build configuration list for PBXNativeTarget "KRNetworkingTests" */;
+			buildConfigurationList = 5456D8C221B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworkingTests" */;
 			buildPhases = (
-				54C24992219A8D5500C521B2 /* Sources */,
-				54C24993219A8D5500C521B2 /* Frameworks */,
-				54C24994219A8D5500C521B2 /* Resources */,
+				5456D8A721B1A0A40020AB94 /* Sources */,
+				5456D8A821B1A0A40020AB94 /* Frameworks */,
+				5456D8A921B1A0A40020AB94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54C24998219A8D5500C521B2 /* PBXTargetDependency */,
+				5456D8AD21B1A0A40020AB94 /* PBXTargetDependency */,
 			);
 			name = KRNetworkingTests;
 			productName = KRNetworkingTests;
-			productReference = 54C24996219A8D5500C521B2 /* KRNetworkingTests.xctest */;
+			productReference = 5456D8AB21B1A0A40020AB94 /* KRNetworkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		54C249A0219A8D5500C521B2 /* KRNetworkingUITests */ = {
+		5456D8B521B1A0A40020AB94 /* KRNetworkingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54C249B0219A8D5500C521B2 /* Build configuration list for PBXNativeTarget "KRNetworkingUITests" */;
+			buildConfigurationList = 5456D8C521B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworkingUITests" */;
 			buildPhases = (
-				54C2499D219A8D5500C521B2 /* Sources */,
-				54C2499E219A8D5500C521B2 /* Frameworks */,
-				54C2499F219A8D5500C521B2 /* Resources */,
+				5456D8B221B1A0A40020AB94 /* Sources */,
+				5456D8B321B1A0A40020AB94 /* Frameworks */,
+				5456D8B421B1A0A40020AB94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54C249A3219A8D5500C521B2 /* PBXTargetDependency */,
+				5456D8B821B1A0A40020AB94 /* PBXTargetDependency */,
 			);
 			name = KRNetworkingUITests;
 			productName = KRNetworkingUITests;
-			productReference = 54C249A1219A8D5500C521B2 /* KRNetworkingUITests.xctest */;
+			productReference = 5456D8B621B1A0A40020AB94 /* KRNetworkingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54C2497A219A8D5300C521B2 /* Project object */ = {
+		5456D88B21B1A0A10020AB94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = RK;
 				TargetAttributes = {
-					54C24981219A8D5300C521B2 = {
+					5456D89221B1A0A10020AB94 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					54C24995219A8D5500C521B2 = {
+					5456D8AA21B1A0A40020AB94 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 54C24981219A8D5300C521B2;
+						TestTargetID = 5456D89221B1A0A10020AB94;
 					};
-					54C249A0219A8D5500C521B2 = {
+					5456D8B521B1A0A40020AB94 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 54C24981219A8D5300C521B2;
+						TestTargetID = 5456D89221B1A0A10020AB94;
 					};
 				};
 			};
-			buildConfigurationList = 54C2497D219A8D5300C521B2 /* Build configuration list for PBXProject "KRNetworking" */;
+			buildConfigurationList = 5456D88E21B1A0A10020AB94 /* Build configuration list for PBXProject "KRNetworking" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 54C24979219A8D5300C521B2;
-			productRefGroup = 54C24983219A8D5300C521B2 /* Products */;
+			mainGroup = 5456D88A21B1A0A10020AB94;
+			productRefGroup = 5456D89421B1A0A10020AB94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54C24981219A8D5300C521B2 /* KRNetworking */,
-				54C24995219A8D5500C521B2 /* KRNetworkingTests */,
-				54C249A0219A8D5500C521B2 /* KRNetworkingUITests */,
+				5456D89221B1A0A10020AB94 /* KRNetworking */,
+				5456D8AA21B1A0A40020AB94 /* KRNetworkingTests */,
+				5456D8B521B1A0A40020AB94 /* KRNetworkingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54C24980219A8D5300C521B2 /* Resources */ = {
+		5456D89121B1A0A10020AB94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C24990219A8D5500C521B2 /* LaunchScreen.storyboard in Resources */,
-				54C2498D219A8D5500C521B2 /* Assets.xcassets in Resources */,
-				54C2498B219A8D5300C521B2 /* Main.storyboard in Resources */,
+				5456D8A321B1A0A30020AB94 /* LaunchScreen.storyboard in Resources */,
+				5456D8A021B1A0A30020AB94 /* Assets.xcassets in Resources */,
+				5456D89E21B1A0A20020AB94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54C24994219A8D5500C521B2 /* Resources */ = {
+		5456D8A921B1A0A40020AB94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54C2499F219A8D5500C521B2 /* Resources */ = {
+		5456D8B421B1A0A40020AB94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,100 +265,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		B832FEE177E6637A9B09BD4E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KRNetworking/Pods-KRNetworking-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRNetworking/Pods-KRNetworking-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C386E0021FB7D2FD06213529 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KRNetworking-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		54C2497E219A8D5300C521B2 /* Sources */ = {
+		5456D88F21B1A0A10020AB94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C249B5219A9E9E00C521B2 /* KKNetApi.swift in Sources */,
-				54C24988219A8D5300C521B2 /* ViewController.swift in Sources */,
-				54C24986219A8D5300C521B2 /* AppDelegate.swift in Sources */,
+				5456D89B21B1A0A20020AB94 /* ViewController.m in Sources */,
+				5456D8A621B1A0A30020AB94 /* main.m in Sources */,
+				5456D89821B1A0A10020AB94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54C24992219A8D5500C521B2 /* Sources */ = {
+		5456D8A721B1A0A40020AB94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C2499B219A8D5500C521B2 /* KRNetworkingTests.swift in Sources */,
+				5456D8B021B1A0A40020AB94 /* KRNetworkingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54C2499D219A8D5500C521B2 /* Sources */ = {
+		5456D8B221B1A0A40020AB94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C249A6219A8D5500C521B2 /* KRNetworkingUITests.swift in Sources */,
+				5456D8BB21B1A0A40020AB94 /* KRNetworkingUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54C24998219A8D5500C521B2 /* PBXTargetDependency */ = {
+		5456D8AD21B1A0A40020AB94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54C24981219A8D5300C521B2 /* KRNetworking */;
-			targetProxy = 54C24997219A8D5500C521B2 /* PBXContainerItemProxy */;
+			target = 5456D89221B1A0A10020AB94 /* KRNetworking */;
+			targetProxy = 5456D8AC21B1A0A40020AB94 /* PBXContainerItemProxy */;
 		};
-		54C249A3219A8D5500C521B2 /* PBXTargetDependency */ = {
+		5456D8B821B1A0A40020AB94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54C24981219A8D5300C521B2 /* KRNetworking */;
-			targetProxy = 54C249A2219A8D5500C521B2 /* PBXContainerItemProxy */;
+			target = 5456D89221B1A0A10020AB94 /* KRNetworking */;
+			targetProxy = 5456D8B721B1A0A40020AB94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54C24989219A8D5300C521B2 /* Main.storyboard */ = {
+		5456D89C21B1A0A20020AB94 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54C2498A219A8D5300C521B2 /* Base */,
+				5456D89D21B1A0A20020AB94 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		54C2498E219A8D5500C521B2 /* LaunchScreen.storyboard */ = {
+		5456D8A121B1A0A30020AB94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54C2498F219A8D5500C521B2 /* Base */,
+				5456D8A221B1A0A30020AB94 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -389,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54C249A8219A8D5500C521B2 /* Debug */ = {
+		5456D8BD21B1A0A40020AB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,12 +383,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		54C249A9219A8D5500C521B2 /* Release */ = {
+		5456D8BE21B1A0A40020AB94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -499,15 +435,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		54C249AB219A8D5500C521B2 /* Debug */ = {
+		5456D8C021B1A0A40020AB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06917E1A2BD167ED2A22B5A9 /* Pods-KRNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,14 +451,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		54C249AC219A8D5500C521B2 /* Release */ = {
+		5456D8C121B1A0A40020AB94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD7D0E6090875E3150DACA8 /* Pods-KRNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,15 +467,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		54C249AE219A8D5500C521B2 /* Debug */ = {
+		5456D8C321B1A0A40020AB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRNetworkingTests/Info.plist;
@@ -555,16 +484,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRNetworkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRNetworking.app/KRNetworking";
 			};
 			name = Debug;
 		};
-		54C249AF219A8D5500C521B2 /* Release */ = {
+		5456D8C421B1A0A40020AB94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRNetworkingTests/Info.plist;
@@ -575,16 +502,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRNetworkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRNetworking.app/KRNetworking";
 			};
 			name = Release;
 		};
-		54C249B1219A8D5500C521B2 /* Debug */ = {
+		5456D8C621B1A0A40020AB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRNetworkingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -594,16 +519,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRNetworkingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KRNetworking;
 			};
 			name = Debug;
 		};
-		54C249B2219A8D5500C521B2 /* Release */ = {
+		5456D8C721B1A0A40020AB94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRNetworkingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +536,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRNetworkingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = KRNetworking;
 			};
@@ -622,43 +544,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54C2497D219A8D5300C521B2 /* Build configuration list for PBXProject "KRNetworking" */ = {
+		5456D88E21B1A0A10020AB94 /* Build configuration list for PBXProject "KRNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C249A8219A8D5500C521B2 /* Debug */,
-				54C249A9219A8D5500C521B2 /* Release */,
+				5456D8BD21B1A0A40020AB94 /* Debug */,
+				5456D8BE21B1A0A40020AB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54C249AA219A8D5500C521B2 /* Build configuration list for PBXNativeTarget "KRNetworking" */ = {
+		5456D8BF21B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C249AB219A8D5500C521B2 /* Debug */,
-				54C249AC219A8D5500C521B2 /* Release */,
+				5456D8C021B1A0A40020AB94 /* Debug */,
+				5456D8C121B1A0A40020AB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54C249AD219A8D5500C521B2 /* Build configuration list for PBXNativeTarget "KRNetworkingTests" */ = {
+		5456D8C221B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworkingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C249AE219A8D5500C521B2 /* Debug */,
-				54C249AF219A8D5500C521B2 /* Release */,
+				5456D8C321B1A0A40020AB94 /* Debug */,
+				5456D8C421B1A0A40020AB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54C249B0219A8D5500C521B2 /* Build configuration list for PBXNativeTarget "KRNetworkingUITests" */ = {
+		5456D8C521B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworkingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C249B1219A8D5500C521B2 /* Debug */,
-				54C249B2219A8D5500C521B2 /* Release */,
+				5456D8C621B1A0A40020AB94 /* Debug */,
+				5456D8C721B1A0A40020AB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54C2497A219A8D5300C521B2 /* Project object */;
+	rootObject = 5456D88B21B1A0A10020AB94 /* Project object */;
 }
