@@ -15,6 +15,8 @@
 		5456D8A621B1A0A30020AB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8A521B1A0A30020AB94 /* main.m */; };
 		5456D8B021B1A0A40020AB94 /* KRNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8AF21B1A0A40020AB94 /* KRNetworkingTests.m */; };
 		5456D8BB21B1A0A40020AB94 /* KRNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8BA21B1A0A40020AB94 /* KRNetworkingUITests.m */; };
+		5456D8CB21B1A2090020AB94 /* KRBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456D8CA21B1A2090020AB94 /* KRBaseApi.m */; };
+		A4F644B58B51AD2E7F2799FD /* Pods_KRNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104E7AF791960B8A0841D929 /* Pods_KRNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104E7AF791960B8A0841D929 /* Pods_KRNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5456D89321B1A0A10020AB94 /* KRNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5456D89621B1A0A10020AB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5456D89721B1A0A10020AB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,10 @@
 		5456D8B621B1A0A40020AB94 /* KRNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5456D8BA21B1A0A40020AB94 /* KRNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRNetworkingUITests.m; sourceTree = "<group>"; };
 		5456D8BC21B1A0A40020AB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5456D8C921B1A2090020AB94 /* KRBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRBaseApi.h; sourceTree = "<group>"; };
+		5456D8CA21B1A2090020AB94 /* KRBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRBaseApi.m; sourceTree = "<group>"; };
+		6DF3216990D3C06EE307FE9A /* Pods-KRNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNetworking.debug.xcconfig"; path = "Target Support Files/Pods-KRNetworking/Pods-KRNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		E92FBF8DD6CBC065A702F2E2 /* Pods-KRNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNetworking.release.xcconfig"; path = "Target Support Files/Pods-KRNetworking/Pods-KRNetworking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F644B58B51AD2E7F2799FD /* Pods_KRNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9D49BC19D3C99DD6EA5765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3216990D3C06EE307FE9A /* Pods-KRNetworking.debug.xcconfig */,
+				E92FBF8DD6CBC065A702F2E2 /* Pods-KRNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5039B32621FEDD774B9EC95C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104E7AF791960B8A0841D929 /* Pods_KRNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5456D88A21B1A0A10020AB94 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				5456D8AE21B1A0A40020AB94 /* KRNetworkingTests */,
 				5456D8B921B1A0A40020AB94 /* KRNetworkingUITests */,
 				5456D89421B1A0A10020AB94 /* Products */,
+				2C9D49BC19D3C99DD6EA5765 /* Pods */,
+				5039B32621FEDD774B9EC95C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +164,8 @@
 		5456D8C821B1A0E60020AB94 /* KRNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				5456D8C921B1A2090020AB94 /* KRBaseApi.h */,
+				5456D8CA21B1A2090020AB94 /* KRBaseApi.m */,
 			);
 			path = KRNetworking;
 			sourceTree = "<group>";
@@ -147,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5456D8BF21B1A0A40020AB94 /* Build configuration list for PBXNativeTarget "KRNetworking" */;
 			buildPhases = (
+				0AFF6E1FD5449512EDB1378B /* [CP] Check Pods Manifest.lock */,
 				5456D88F21B1A0A10020AB94 /* Sources */,
 				5456D89021B1A0A10020AB94 /* Frameworks */,
 				5456D89121B1A0A10020AB94 /* Resources */,
+				F555AB3B106B314D25852751 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,11 +297,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AFF6E1FD5449512EDB1378B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F555AB3B106B314D25852751 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRNetworking/Pods-KRNetworking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KRNetworking/Pods-KRNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5456D88F21B1A0A10020AB94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5456D8CB21B1A2090020AB94 /* KRBaseApi.m in Sources */,
 				5456D89B21B1A0A20020AB94 /* ViewController.m in Sources */,
 				5456D8A621B1A0A30020AB94 /* main.m in Sources */,
 				5456D89821B1A0A10020AB94 /* AppDelegate.m in Sources */,
@@ -441,6 +521,7 @@
 		};
 		5456D8C021B1A0A40020AB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF3216990D3C06EE307FE9A /* Pods-KRNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +538,7 @@
 		};
 		5456D8C121B1A0A40020AB94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92FBF8DD6CBC065A702F2E2 /* Pods-KRNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
